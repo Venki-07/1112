@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate Life | Blood Donation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a href="#" class="logo">Donate<span>Life</span></a>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#why">Why Donate</a>
+        <a href="#eligibility">Eligibility</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>One pint can save three lives</h1>
+      <p>Join our community of donors. Together, we make emergencies survivable and hospitals stronger.</p>
+      <a href="#register" class="btn btn-primary">Become a donor</a>
+    </div>
+  </section>
+
+  <!-- Why Donate -->
+  <section id="why" class="section">
+    <div class="container">
+      <h2>Why donate blood</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Save lives</h3>
+          <p>Your donation supports surgeries, trauma care, cancer treatment, and rare conditions.</p>
+        </article>
+        <article class="card">
+          <h3>Community impact</h3>
+          <p>Local blood banks rely on regular donors to meet daily demands and crisis surges.</p>
+        </article>
+        <article class="card">
+          <h3>Free health check</h3>
+          <p>Every donation includes a quick screening that can flag potential health issues early.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eligibility -->
+  <section id="eligibility" class="section section-alt">
+    <div class="container">
+      <h2>Basic eligibility</h2>
+      <div class="eligibility-grid">
+        <div class="elig-item">
+          <h4>Age</h4>
+          <p>Typically 18–65 years. Check local guidelines for specifics.</p>
+        </div>
+        <div class="elig-item">
+          <h4>Weight</h4>
+          <p>Usually minimum 50 kg for whole blood donation.</p>
+        </div>
+        <div class="elig-item">
+          <h4>Health</h4>
+          <p>In good general health, no active infections, and adequate hemoglobin.</p>
+        </div>
+        <div class="elig-item">
+          <h4>Interval</h4>
+          <p>At least 3 months between whole blood donations.</p>
+        </div>
+      </div>
+      <p class="note">Always verify with your local blood bank. Eligibility criteria may vary by country and organization.</p>
+    </div>
+  </section>
+
+  <!-- Register -->
+  <section id="register" class="section">
+    <div class="container">
+      <h2>Donor registration</h2>
+      <form class="form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullname">Full name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="e.g., Venkatachalam R" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="e.g., venkat@example.com" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 9XXXXXXXXX" required />
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Ponneri, TN" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bloodgroup">Blood group</label>
+            <select id="bloodgroup" name="bloodgroup" required>
+              <option value="">Select</option>
+              <option>O+</option>
+              <option>O-</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="lastdonation">Last donation date</label>
+            <input type="date" id="lastdonation" name="lastdonation" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Notes (optional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="Share any relevant information or preferred contact times"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Submit registration</button>
+          <a href="#contact" class="btn btn-outline">Need help?</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2>Contact and location</h2>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Address:</strong> Community Blood Center, Ponneri, Tamil Nadu</p>
+          <p><strong>Email:</strong> support@donatelife.in</p>
+          <p><strong>Phone:</strong> +91 9XXXXXXXXX</p>
+        </div>
+        <div>
+          <p><strong>Hours:</strong> Mon–Sat, 9:00–18:00 IST</p>
+          <p><strong>Walk-ins:</strong> Welcome with valid ID</p>
+          <p><strong>Emergency:</strong> Contact your nearest hospital blood bank</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2025 DonateLife. Made with care for our community.</p>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
